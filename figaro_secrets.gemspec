@@ -17,7 +17,7 @@ Gem::Specification.new do |spec|
   spec.metadata["allowed_push_host"] = "https://rubygems.org"
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "figaro"
+  spec.add_dependency "figjam"
   spec.add_dependency "aws-sdk-secretsmanager"
 
   spec.add_development_dependency "bundler"
